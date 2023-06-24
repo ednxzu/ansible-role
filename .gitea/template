@@ -3,3 +3,6 @@
 
 # default molecule converge.yml file
 molecule/default/converge.yml
+
+# readme file
+README.md
