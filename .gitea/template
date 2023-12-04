@@ -1,8 +1,11 @@
 # all main.yml files
 **main.yml
 
-# default molecule converge.yml file
-molecule/default/converge.yml
+# default molecule converge.yml files
+molecule/default*/converge.yml
+
+# default molecule verify.yml files
+molecule/default*/converge.yml
 
 # readme file
 README.md
