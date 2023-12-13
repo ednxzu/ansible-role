@@ -1,5 +1,5 @@
 ---
-# meta file for deploy_adguard
+# meta file for ${REPO_NAME}
 galaxy_info:
   namespace: 'ednxzu'
   role_name: '${REPO_NAME}'
@@ -15,11 +15,9 @@ galaxy_info:
     - name: Debian
       versions:
         - bullseye
+        - bookworm
   galaxy_tags:
     - 'ubuntu'
     - 'debian'
-    - 'adguard'
-    - 'adblock'
-    - 'docker'
 
 dependencies: []
